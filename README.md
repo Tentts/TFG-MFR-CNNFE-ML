@@ -37,7 +37,7 @@ This repository contains the entire project developed in Google Colaboratory not
 
 
 
-Spanish
+Español
 # Reconocimiento facial con uso de mascarilla empleando CNNs como extractor de características, PCA para reducción de dimensionalidad y clasificadores Machine Learning
 
 
