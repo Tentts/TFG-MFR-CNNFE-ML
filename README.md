@@ -16,22 +16,22 @@ More information about the original implementation of Wear-Mask-To-Face: https:/
 The implementation performs feature extraction using a CNN without the last classification layers, then we use PCA to reduce dimensionality, and finally a classifier is applied.
 For this purpose, several pre-trained CNN models and classifiers have been used.
   
-  CNN models used:
-    * VGG16
-    * VGG19
-    * ResNet50
-    * ResNet101
-    * InceptionV3
-
+CNN models used:
+  VGG16
+  VGG19
+  ResNet50
+  ResNet101
+  InceptionV3
+    
 Classifiers:
-    * MLP
-    * SVM. LinearSVC
-    * Random Forest
+  MLP
+  SVM (LinearSVC)
+  Random Forest
 
-
-   *  VGG16 + LinearSVC   (~ 94% Accuracy, 0.97 AUC)
-   *  VGG16 + MLP         (~ 93% Accuracy, 0.97 AUC)
-   *  VGG19 + LinearSVC   (~ 92% Accuracy, 0.96 AUC)
+Best perfomance models:
+  VGG16 + LinearSVC   (~ 94% Accuracy, 0.97 AUC)
+  VGG16 + MLP         (~ 93% Accuracy, 0.97 AUC)
+  VGG19 + LinearSVC   (~ 92% Accuracy, 0.96 AUC)
 
 This repository contains the entire project developed in Google Colaboratory notebooks.
 
@@ -53,23 +53,22 @@ Más información sobre la implementación original de Wear-Mask-To-Face: https:
 La implementación realiza la extracción de características mediante una CNN sin las últimas capas de clasificación, posteriormente empleamos PCA para reducir dimensionalidades, y por último se emplea un clasificador.
 Para ello se han empleado varias redes CNN preentrenadas y clasificadores ML.
   
-  Redes CNN empleadas:
-    *  VGG16
-    *  VGG19
-    *  ResNet50
-    *  ResNet101
-    *  InceptionV3
+Redes CNN empleadas:
+  VGG16
+  VGG19
+  ResNet50
+  ResNet101
+  InceptionV3
 
-  Clasificadores:
-    *  MLP
-    *  SVM. LinearSVC
-    *  Random Forest
+Clasificadores:
+  MLP
+  SVM (LinearSVC)
+  Random Forest
 
-Entre los mejores modelos se encuentran:
+Mejores modelos:
 
-
- *  VGG16 + LinearSVC   (~ 94% Accuracy, 0.97 AUC)
- *  VGG16 + MLP         (~ 93% Accuracy, 0.97 AUC)
- *  VGG19 + LinearSVC   (~ 92% Accuracy, 0.96 AUC)
+  VGG16 + LinearSVC   (~ 94% Accuracy, 0.97 AUC)
+  VGG16 + MLP         (~ 93% Accuracy, 0.97 AUC)
+  VGG19 + LinearSVC   (~ 92% Accuracy, 0.96 AUC)
 
 Este repositorio contiene los ficheros del proyecto desarrollado en cuadernos de Google Colaboratory.
