@@ -17,21 +17,21 @@ The implementation performs feature extraction using a CNN without the last clas
 For this purpose, several pre-trained CNN models and classifiers have been used.
   
 CNN models used:
-  VGG16
-  VGG19
-  ResNet50
-  ResNet101
-  InceptionV3
+* VGG16
+* VGG19
+* ResNet50
+* ResNet101
+* InceptionV3
     
 Classifiers:
-  MLP
-  SVM (LinearSVC)
-  Random Forest
+* MLP
+* SVM (LinearSVC)
+* Random Forest
 
 Best perfomance models:
-  VGG16 + LinearSVC   (~ 94% Accuracy, 0.97 AUC)
-  VGG16 + MLP         (~ 93% Accuracy, 0.97 AUC)
-  VGG19 + LinearSVC   (~ 92% Accuracy, 0.96 AUC)
+  1.  VGG16 + LinearSVC   (~ 94% Accuracy, 0.97 AUC)
+  2.  VGG16 + MLP         (~ 93% Accuracy, 0.97 AUC)
+  3.  VGG19 + LinearSVC   (~ 92% Accuracy, 0.96 AUC)
 
 This repository contains the entire project developed in Google Colaboratory notebooks.
 
@@ -54,21 +54,22 @@ La implementación realiza la extracción de características mediante una CNN s
 Para ello se han empleado varias redes CNN preentrenadas y clasificadores ML.
   
 Redes CNN empleadas:
-  VGG16
-  VGG19
-  ResNet50
-  ResNet101
-  InceptionV3
+* VGG16
+* VGG19
+* ResNet50
+* ResNet101
+* InceptionV3
 
 Clasificadores:
-  MLP
-  SVM (LinearSVC)
-  Random Forest
+* MLP
+* SVM (LinearSVC)
+* Random Forest
 
 Mejores modelos:
 
-  VGG16 + LinearSVC   (~ 94% Accuracy, 0.97 AUC)
-  VGG16 + MLP         (~ 93% Accuracy, 0.97 AUC)
-  VGG19 + LinearSVC   (~ 92% Accuracy, 0.96 AUC)
+  1.  VGG16 + LinearSVC   (~ 94% Accuracy, 0.97 AUC)
+  2.  VGG16 + MLP         (~ 93% Accuracy, 0.97 AUC)
+  3.  VGG19 + LinearSVC   (~ 92% Accuracy, 0.96 AUC)
+
 
 Este repositorio contiene los ficheros del proyecto desarrollado en cuadernos de Google Colaboratory.
