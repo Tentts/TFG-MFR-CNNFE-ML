@@ -28,7 +28,6 @@ Classifiers:
     * SVM. LinearSVC
     * Random Forest
 
-Translated with www.DeepL.com/Translator (free version)
 
    *  VGG16 + LinearSVC   (~ 94% Accuracy, 0.97 AUC)
    *  VGG16 + MLP         (~ 93% Accuracy, 0.97 AUC)
